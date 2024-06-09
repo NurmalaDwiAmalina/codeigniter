@@ -248,7 +248,7 @@
         <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{{ site_url('backend/dashboard')}}">
+              <a class="nav-link d-flex align-items-center gap-2" href="{{ site_url('backend/dashboard')}}">
                 <svg class="bi"><use xlink:href="#house-fill"/></svg>
                 Dashboard
               </a>
@@ -259,7 +259,14 @@
                 Table
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="{{site_url('backend/user/profile')}}">
+              <i class="bi-person-circle"><use xlink:href="#file-earmark"/></i>
+              Update Profile
+              </a>
+            </li>
             <hr class="my-3">
+
 
           <ul class="nav flex-column mb-auto">
             <li class="nav-item">
